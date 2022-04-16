@@ -21,7 +21,7 @@ public class DoublyLinkedList {
         }
     }
 
-    Node sortKSoertedList(Node head,int k){
+    Node sortKSortedList(Node head,int k){
         if(head == null || head.next == null)
             return head;
 
